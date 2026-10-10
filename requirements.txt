@@ -1,0 +1,10 @@
+# Direct dependencies. Resolve in a separate Python 3.11 environment per project.
+# Tested-library lower bounds are not a complete reproducibility/security lock.
+imbalanced-learn>=0.14.2,<1
+ipykernel
+jupyterlab
+matplotlib>=3.11.2,<4
+numpy>=2.4.6,<3
+pandas>=3.0.6,<4
+scikit-learn>=1.9.1,<2
+seaborn>=0.13.2,<1
